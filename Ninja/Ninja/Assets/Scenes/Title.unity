@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventpos: 120
+  PlayerConrol: {fileID: 0}
 --- !u!1 &509423221
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +187,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.48, y: 0.44}
+  m_Size: {x: 2.43, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -199,8 +200,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509423221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.07, y: -3.81, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: 8, y: -3.85, z: 0}
+  m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -291,11 +292,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4425318843687770, guid: 726cd56d94382cf479f95ed393dd4382, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.6
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 4425318843687770, guid: 726cd56d94382cf479f95ed393dd4382, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.45
+      value: -5.58
       objectReference: {fileID: 0}
     - target: {fileID: 4425318843687770, guid: 726cd56d94382cf479f95ed393dd4382, type: 2}
       propertyPath: m_LocalPosition.z
